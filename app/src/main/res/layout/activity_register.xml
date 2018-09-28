@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/regFname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="FirstName"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:textColor="#FF05517E"
+        android:drawableLeft="@drawable/ic_action_name"
+        />
+    <EditText
+        android:id="@+id/regLname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:hint="LastName"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:textColor="#FF05517E"
+        android:drawableLeft="@drawable/ic_action_name"
+        />
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:hint="Email"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:textColor="#FF05517E"
+        android:gravity="left"
+        />
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="200dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        />
+
+    <EditText
+    android:id="@+id/regConfirmPass"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:inputType="textPassword"
+        android:gravity="left"
+        android:drawableLeft="@drawable/ic_action_confirm"
+    android:layout_marginTop="260dp"
+    android:hint="ConfirmPassword"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FF05517E"
+
+
+    />
+ <Button
+     android:id="@+id/regBtn"
+     android:layout_width="150dp"
+     android:layout_height="60dp"
+     android:layout_marginTop="330dp"
+     android:layout_marginLeft="110dp"
+     android:text="REGISTER"
+     android:textSize="26dp"
+     android:background="#FF05517E"
+     android:textColor="#fff"
+     />
+
+
+</RelativeLayout>

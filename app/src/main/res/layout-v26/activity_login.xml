@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".Login">
+
+   <EditText
+    android:layout_width="330dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="16dp"
+    android:gravity="left"
+    android:hint="Username"
+       android:textColor="#FF05517E"
+    android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="left"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FF05517E"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:background="#05517e"
+        android:tooltipText="Press LOGIN Button To GO To The Home_Activity"
+        android:shadowColor="#8a2be2"
+        android:shadowRadius="@android:integer/status_bar_notification_info_maxnum"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="Register Here ?"
+        android:textSize="20dp"
+        android:tooltipText="Click Here For Registration"/>
+</RelativeLayout>
